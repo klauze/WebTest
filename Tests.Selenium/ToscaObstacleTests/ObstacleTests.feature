@@ -30,4 +30,9 @@ Scenario: Complete Obstacle 81121 AGAIN AND AGAIN AND AGAIN
 	And I click on then click me button
 	Then I see the good job success message
 
-	
+	Scenario: Complete Obstacle 70310 THE LAST ROW
+	Given I navigate to obstacle 70310 on tricentis
+	When I get the value from last row and enter it into the text box
+	Then I see the good job success message
+
+

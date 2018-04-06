@@ -24,7 +24,7 @@ namespace Tests.Selenium.ToscaObstacleTests
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "GoogleSeleniumSpecflowtest.feature"
+#line 1 "ObstacleTests.feature"
 #line hidden
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.ClassInitializeAttribute()]
@@ -140,6 +140,24 @@ this.ScenarioSetup(scenarioInfo);
 #line 30
  testRunner.And("I click on then click me button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 31
+ testRunner.Then("I see the good job success message", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Complete Obstacle 70310 THE LAST ROW")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Basic Google Search")]
+        public virtual void CompleteObstacle70310THELASTROW()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Complete Obstacle 70310 THE LAST ROW", ((string[])(null)));
+#line 33
+ this.ScenarioSetup(scenarioInfo);
+#line 34
+ testRunner.Given("I navigate to obstacle 70310 on tricentis", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 35
+ testRunner.When("I get the value from last row and enter it into the text box", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 36
  testRunner.Then("I see the good job success message", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();

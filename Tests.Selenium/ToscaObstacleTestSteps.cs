@@ -48,6 +48,11 @@ namespace Tests.Selenium.Tosca_Obstacle_Tests
             ToscaObstacle.ObstaclePage.ConfirmSuccess();
         }
 
+        [StepDefinition(@"I get the value from last row and enter it into the text box")]
+        public void WhenIGetTheValueFromLastRowAndEnterItIntoTheTextBox()
+        {
+            ToscaObstacle.ObstaclePage.GetValueFromLastRowTable();
+        }
 
 
         [StepDefinition(@"I click on the click me first button")]

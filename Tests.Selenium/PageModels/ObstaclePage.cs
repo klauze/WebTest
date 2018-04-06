@@ -128,7 +128,17 @@ namespace Tests.Selenium.PageModels
 
 
 
+        public void GetValueFromLastRowTable()
+        {
+            GenericTable table = null;
+            table = GenericTable.BuildTable(Utils.GetElement((By.Id("orderTable")),d),
+            new string[] { "Type", "Value" });
 
+
+
+
+
+        }
 
     }
 

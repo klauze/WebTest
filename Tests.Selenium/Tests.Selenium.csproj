@@ -72,12 +72,13 @@
     <Compile Include="PageModels\BasePage.cs" />
     <Compile Include="ToscaObstacleTests\BasicGoogleSearchSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ToscaObstacleTests\Commons\GenericTable.cs" />
     <Compile Include="ToscaObstacleTests\Commons\Utils.cs" />
     <Compile Include="ToscaObstacleTests\Commons\GlobalHook.cs" />
-    <Compile Include="ToscaObstacleTests\GoogleSeleniumSpecflowtest.feature.cs">
+    <Compile Include="ToscaObstacleTests\ObstacleTests.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>GoogleSeleniumSpecflowtest.feature</DependentUpon>
+      <DependentUpon>ObstacleTests.feature</DependentUpon>
     </Compile>
     <Compile Include="GoogleSeleniumUnitTest.cs" />
     <Compile Include="ToscaObstacleTestSteps.cs" />
@@ -85,9 +86,9 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="ToscaObstacleTests\GoogleSeleniumSpecflowtest.feature">
+    <None Include="ToscaObstacleTests\ObstacleTests.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>GoogleSeleniumSpecflowtest.feature.cs</LastGenOutput>
+      <LastGenOutput>ObstacleTests.feature.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>
